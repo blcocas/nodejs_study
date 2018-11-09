@@ -1,0 +1,14 @@
+html
+  head
+    title WELCOME! 
+      =session.displayName
+  body
+    h1 WELLCOME!!
+    if session.displayName
+      h1=session.displayName
+        span !!!
+      h3 
+        a(href='/auth/logout') LOGOUT
+    else 
+      a(href='/auth/login') LOGIN
+    
