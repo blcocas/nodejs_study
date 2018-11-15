@@ -1,0 +1,12 @@
+webrtc는 미디어 realtime 통신을 가능케 하는 앱.
+webrtc는 자바스크립트 api가 여러개 존재.
+
+getUserMedia(): capture audio and video.
+MediaRecorder: record audio and video.
+RTCPeerConnection: stream audio and video between users.
+RTCDataChannel: stream data between users.
+
+시그널링
+rtc peer connection 을 하기위해 그 전에 핸드쉐이킹을 하는것.
+
+이 자바스크립트 api들은 오직 로컬호스트나 https로만 가능.
